@@ -1,3 +1,4 @@
+/* universal style */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,13 @@
 body {
     background-color: #d9dcd6;
 }
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* header */
 
 .header {
     padding: 20px;
@@ -41,6 +49,8 @@ body {
     margin-left: 25px;
 }
 
+/* text */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +60,8 @@ p {
     font-size: 16px;
 }
 
+/* hero div */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +70,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* section floats */
 
 .float-left {
     float: left;
@@ -75,6 +89,8 @@ p {
     margin-left: 20px;
 }
 
+/* benefits aside */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,49 +102,17 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
