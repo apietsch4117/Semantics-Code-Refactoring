@@ -14,6 +14,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+
 /* header */
 
 header {
@@ -90,6 +91,7 @@ p {
 }
 
 /* benefits aside */
+/* removed duplicate codes of various sections by replacing it with a class */
 
 .benefits {
     margin-right: 20px;
@@ -120,6 +122,7 @@ p {
 
 /* business section */
 /* removed duplicate codes of various sections by replacing it with a class */
+
 .business {
     margin-bottom: 20px;
     padding: 50px;
